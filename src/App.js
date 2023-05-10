@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <h1>my todo</h1>
+     <h1>My Todo</h1>
      <div className='todo-wrapper'>
       <div className='todo-input'>
         <div className='input-items'>
@@ -21,6 +21,12 @@ function App() {
       <div className='btn-area'>
         <button>Todo</button>
         <button>Completed</button>
+      </div>
+      <div className='todo-list'>
+        <div className='todo-list-items'>
+          <h3>Task</h3>
+          <p>Completed</p>
+        </div>
       </div>
      </div>
     </div>
