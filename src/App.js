@@ -15,12 +15,12 @@ function App() {
           <input type='text' placeholder="what's the task Description?"/>
         </div>
         <div className='input-items'>
-          <button type='button' className='PrimaryBtn'>Add</button>
+          <button type='button' className='primaryBtn'>Add</button>
         </div>
       </div>
       <div className='btn-area'>
-        <button>Todo</button>
-        <button>Completed</button>
+        <button className='secBtn'>Todo</button>
+        <button className='secBtn'>Completed</button>
       </div>
       <div className='todo-list'>
         <div className='todo-list-items'>
